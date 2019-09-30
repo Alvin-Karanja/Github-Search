@@ -1,27 +1,63 @@
-# Git
+# GitSearch
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.6.
 
-## Development server
+## Author
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+[Alvin-Karanja](https://github.com/Alvin-Karanja)
 
-## Code scaffolding
+## Description
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This is Angular CLI application that allows a user to enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories based on github user name.
 
-## Build
+## Screenshot
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+<img src= "https://raw.githubusercontent.com/Alvin-Karanja/Git-Search/master/src/assets/screenshotgitsearch.png" width="900px" height="440px">
 
-## Running unit tests
+## Live Page 
+https://Alvin-Karanja.github.io/Git-Search/ 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Composed of two main components.
+* `Search Users` -search for users on git-hub based on their usernames.
+* `Search Repositories` -search for repositories on git-hub based on their authoers name.
 
-## Further help
+## BDD ##
+| Behavior                  | Input                     | Output                    |
+| ------------------------- | ------------------------- | ------------------------- |
+| Search for a github profile |Enter the username of the github User name | Displays the name, username, number of repositories,Joining date, followers, following and lists the repos  |
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Installation / Setup instruction
+* Open Terminal {Ctrl+Alt+T}
+
+* git clone ```https://github.com/Alvin-Karanja/Git-Search.git```
+
+* cd Git-Search
+
+* code . or atom . based on the text editor you have.
+
+* Run ng serve for a dev server. 
+
+* Navigate to http://localhost:4200/. 
+
+* `npm install && ng serve`
+
+## Technology used ##
+
+* Angular CLI
+* HTML 
+* CSS
+* Bootstrap 
+* Typescript
+* Generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
+
+## Known Bugs
+* No known bug now but pull requests are encouraged
+
+## Contact Information 
+
+If you have any question or contributions, please email me at [pavilionh6@gmail.com]
+
+## License
+* *MIT License:*
+* Copyright (c) 2019 **Alvin Karanja**
