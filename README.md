@@ -9,9 +9,6 @@
 
 This is Angular CLI application that allows a user to enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories based on github user name.
 
-## Screenshot
-
-<img src= "https://raw.githubusercontent.com/Alvin-Karanja/Git-Search/master/src/assets/screenshotgitsearch.png" width="900px" height="440px">
 
 ## Live Page 
 https://Alvin-Karanja.github.io/Git-Search/ 
